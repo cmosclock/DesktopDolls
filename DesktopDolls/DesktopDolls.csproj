@@ -4,7 +4,6 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <PublishReadyToRun>false</PublishReadyToRun>
     <TieredCompilation>false</TieredCompilation>
-    <UseWpf>true</UseWpf>
     <UseWindowsForms>true</UseWindowsForms>
     <AssemblyName>DesktopDolls</AssemblyName>
     <RootNamespace>DesktopDolls</RootNamespace>
@@ -40,9 +39,5 @@
     <PackageReference Include="MonoGame.Framework.WindowsDX.9000" Version="3.8.9012" />
     <PackageReference Include="Vanara.PInvoke.DwmApi" Version="3.3.15" />
     <PackageReference Include="Vanara.PInvoke.User32" Version="3.3.15" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="dll\SDL2.dll" />
-    <Content Include="dll\SDL2_image.dll" />
   </ItemGroup>
 </Project>

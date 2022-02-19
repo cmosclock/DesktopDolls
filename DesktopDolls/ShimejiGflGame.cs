@@ -80,8 +80,8 @@ namespace DesktopDolls {
 			MakeFullScreenOverlay(Window.Handle);
 			graphics.HardwareModeSwitch = false;
 			graphics.IsFullScreen = true;
-			graphics.PreferredBackBufferWidth = (int)SystemParameters.FullPrimaryScreenWidth;
-			graphics.PreferredBackBufferHeight = (int)SystemParameters.FullPrimaryScreenHeight;
+			graphics.PreferredBackBufferWidth = Screen.PrimaryScreen.Bounds.Width;
+			graphics.PreferredBackBufferHeight = Screen.PrimaryScreen.Bounds.Height;
 			graphics.ApplyChanges();
 			mainGameForm.Hide();
 			
