@@ -1,0 +1,40 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin DebugText.spritefont
+/importer:FontDescriptionImporter
+/processor:LocalizedFontProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:DebugText.spritefont
+
+#begin spine/m4a1.atlas
+/copy:spine/m4a1.atlas
+
+#begin spine/m4a1.png
+/copy:spine/m4a1.png
+
+#begin spine/m4a1.skel
+/copy:spine/m4a1.skel
+
+#begin spine/rm4a1.atlas
+/copy:spine/rm4a1.atlas
+
+#begin spine/rm4a1.png
+/copy:spine/rm4a1.png
+
+#begin spine/rm4a1.skel
+/copy:spine/rm4a1.skel
+
