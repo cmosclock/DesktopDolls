@@ -240,7 +240,7 @@ namespace DesktopDolls {
 					Color.Orange, 0, new Vector2(0, 0), 1.0f, SpriteEffects.None, 1);
 				_spriteBatch.End();
 #endif
-				if (mouse.LeftButton == ButtonState.Pressed && !_holding)
+				if (mouse.LeftButton == ButtonState.Pressed && !_holding && Form.ActiveForm == _clickPanelForm)
 				{
 					_holding = true;
 					state.SetAnimation(0, "pick", true);
